@@ -15,26 +15,58 @@
                 <h2>Haibara</h2>
             </div>
 
+            <form class="search-form" role="search" onsubmit="return false;">
+                <div class="search-field">
+                    <i class="fa-solid fa-magnifying-glass search-icon" aria-hidden="true"></i>
+                    <input type="search" id="searchInput" placeholder="Cari produk kamu" aria-label="Cari produk">
+                </div>
+                <button type="button" id="searchBtn">Cari</button>
+            </form>
+
+
             <ul>
                 <li>
                     <a href="#">
                         <i class="fa-solid fa-cart-shopping"></i> Keranjang
                     </a>
                 </li>
-
                 <li>
                     <a href="#">
                         <i class="fa-solid fa-tag"></i>Promo    
                     </a>
                 </li>
-                <li><a href="#">Profil</a></li>
+                <li>
+                    <a href="#">
+                        <i class="fa solid fa-profile"></i>Profil
+                    </a>
+                </li>
             </ul>
         </nav>
     </header>
 
     <!-- Jumbotron -->
-    <section>
 
+    <section class="jumbotron">
+        <img src="../assets/img/Jumbotron.jpg" class="jumbotron-img" alt="" aria-hidden="true">
+         <div class="product-title-desc">
+             <h1>Belanja Kebutuhan mu sekarang!<br>Kami selalu ada untukmu.</h1>
+             <p>Temukan kebutuhan harian mu disini, belanja sekarang dan dapatkan diskon hingga 30%</p>
+         </div>
+
+         <div class="btn-suggest">
+            <button class="btn-suggest1">Cari kebutuhanmu</button>
+         </div>  
+    </section>
+
+    <section class="product-section">
+        <article class="product-card">
+            <div class="product-thumb">
+                <i class="fa-solid fa-basket-shopping" aria-hidden="true"></i>
+            </div>
+            <h3 class="product-name">Haibara T-shirt</h3>
+            <p class="product-price">Rp 120.000</p>
+            <button class="product-btn" type="button">Tambah ke keranjang</button>
+        </article>
     </section>
     <!-- Jumbotron end -->
 </body>
